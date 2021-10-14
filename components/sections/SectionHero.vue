@@ -12,7 +12,7 @@
               fixed="top"
             >
               <div
-                class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0" style="background-color:red"
+                class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0" style=""
               >
                 <div class="flex items-center justify-between w-full md:w-auto" style="background-color:transparent">
                   <a href="#" style="background-color:transparent">
@@ -20,7 +20,7 @@
                     <img
                       alt="PET-Informática"
                       class="h-8 w-auto sm:h-10"
-                      src="images/logos/dadospet-horizontal.png"
+                      src="images/logos/teste-logo.png"
                       style="background-color:transparent"
                     />
                   </a>
@@ -89,7 +89,7 @@
                     <img
                       alt=""
                       class="h-8 w-auto"
-                      src="images/logos/dadospet-horizontal.png"
+                      src="images/logos/teste-logo.png"
                       style="background-color:rgba(0,0,0,0)"
                     />
                   </div>
