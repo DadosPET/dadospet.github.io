@@ -44,19 +44,19 @@
                 <a
                   href="#atividades"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Atividades</a
+                  >Acesso aos dados - API</a
                 >
 
                 <a
                   href="#quem-somos"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Quem somos</a
+                  >Aplicações</a
                 >
 
                 <a
                   href="#perguntas-frequentes"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Perguntas frequentes</a
+                  >Quem somos</a
                 >
 
                 <a
