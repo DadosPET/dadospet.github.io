@@ -1,8 +1,10 @@
 <template>
   <div>
-    <SectionAnnouncement :announcement="petWebsiteData.announcement" />
+    <!-- SectionAnnouncement :announcement="petWebsiteData.announcement" / -->
     <SectionHero :hero="petWebsiteData.hero" />
     <SectionActivities :activities="petWebsiteData.activities" />
+    <SectionAPIAccess />
+    <SectionApplications />
     <SectionMembers :members="petWebsiteData.members" />
     <SectionFaq :faq-entries="petWebsiteData.faqEntries" />
     <SectionContact

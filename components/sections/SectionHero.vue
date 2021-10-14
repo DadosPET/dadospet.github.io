@@ -16,9 +16,9 @@
               >
                 <div class="flex items-center justify-between w-full md:w-auto" style="background-color:transparent">
                   <a href="#" style="background-color:transparent">
-                    <span class="sr-only">PET-Informática</span>
+                    <span class="sr-only">Dados PET</span>
                     <img
-                      alt="PET-Informática"
+                      alt="Dados PET"
                       class="h-8 w-auto sm:h-10"
                       src="images/logos/teste-logo.png"
                       style="background-color:transparent"
