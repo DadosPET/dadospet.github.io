@@ -5,21 +5,23 @@
         <div
           class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-4xl lg:w-full lg:pb-28 xl:pb-32"
         >
-          <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+          <div class="relative pt-6 px-4 sm:px-6 lg:px-8" style="position: fixed; background-color:#FDF8F5; top: 0;">
             <nav
               class="relative flex items-center justify-between sm:h-10 lg:justify-start"
               aria-label="Global"
+              fixed="top"
             >
               <div
-                class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
+                class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0" style="background-color:red"
               >
-                <div class="flex items-center justify-between w-full md:w-auto">
-                  <a href="#">
+                <div class="flex items-center justify-between w-full md:w-auto" style="background-color:transparent">
+                  <a href="#" style="background-color:transparent">
                     <span class="sr-only">PET-Informática</span>
                     <img
                       alt="PET-Informática"
                       class="h-8 w-auto sm:h-10"
-                      src="images/logos/pet-primary-signature-light.svg"
+                      src="images/logos/dadospet-horizontal.png"
+                      style="background-color:transparent"
                     />
                   </a>
                   <div class="-mr-2 flex items-center md:hidden">
@@ -42,19 +44,19 @@
                 <a
                   href="#atividades"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Atividades</a
+                  >Acesso aos dados - API</a
                 >
 
                 <a
                   href="#quem-somos"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Quem somos</a
+                  >Aplicações</a
                 >
 
                 <a
                   href="#perguntas-frequentes"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Perguntas frequentes</a
+                  >Quem somos</a
                 >
 
                 <a
@@ -77,6 +79,7 @@
             <div
               v-if="menuOpened"
               class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
+              style="position: fixed; background-color:#FDF8F5; top: 0;"
             >
               <div
                 class="rounded-lg shadow-md bg-linho ring-1 ring-perola-negra ring-opacity-5 overflow-hidden"
@@ -86,7 +89,8 @@
                     <img
                       alt=""
                       class="h-8 w-auto"
-                      src="images/logos/pet-primary-signature-light.svg"
+                      src="images/logos/dadospet-horizontal.png"
+                      style="background-color:rgba(0,0,0,0)"
                     />
                   </div>
                   <div class="-mr-2">
