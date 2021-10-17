@@ -42,19 +42,19 @@
                 class="hidden md:block md:ml-10 md:pr-4 md:space-x-3 lg:space-x-8 text-sm"
               >
                 <a
-                  href="#atividades"
+                  href="#acesso-api"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
                   >Acesso aos dados - API</a
                 >
 
                 <a
-                  href="#quem-somos"
+                  href="#aplicacoes"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
                   >Aplicações</a
                 >
 
                 <a
-                  href="#perguntas-frequentes"
+                  href="#quem-somos"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
                   >Quem somos</a
                 >
