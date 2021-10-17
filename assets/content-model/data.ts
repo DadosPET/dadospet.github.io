@@ -607,24 +607,12 @@ export const petWebsiteData: PetWebsiteData = {
   ],
   externalLinks: [
     {
-      text: 'Férias.py',
-      url: 'https://pet.cin.ufpe.br/ferias.py',
+      text: 'Regimento',
+      url: 'https://drive.google.com/file/d/1j_2GUzWuSuTSuASV87Ym8InuI4ipOg1p/view?usp=sharing',
     },
     {
-      text: 'CInWiki',
-      url: 'https://pet.cin.ufpe.br/wiki/',
-    },
-    {
-      text: 'OPEI',
-      url: 'https://opei.cin.ufpe.br/',
-    },
-    {
-      text: 'Manual de Sobrevivência',
-      url: 'https://pet.cin.ufpe.br/manual',
-    },
-    {
-      text: 'PETLib',
-      url: 'https://pet.cin.ufpe.br/lib/',
+      text: 'Formulário de Inscrição',
+      url: 'https://forms.gle/aRz41wEpAjKrvRHfA',
     },
   ],
 }
