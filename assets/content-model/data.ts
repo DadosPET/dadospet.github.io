@@ -580,51 +580,39 @@ export const petWebsiteData: PetWebsiteData = {
     },
   ],
   contactUrls: [
+    // {
+    //   name: 'Facebook',
+    //   label: '@petinformatica',
+    //   icon: 'ri-facebook-circle-fill',
+    //   url: 'https://fb.me/petinformatica',
+    // },
     {
-      name: 'Facebook',
-      label: '@petinformatica',
-      icon: 'ri-facebook-circle-fill',
-      url: 'https://fb.me/petinformatica',
-    },
-    {
-      name: 'Instagram',
-      label: '@petinformatica',
-      icon: 'ri-instagram-fill',
-      url: 'https://instagr.am/petinformatica',
+      name: 'E-mail',
+      label: 'dadospet@gmail.com',
+      icon: 'ri-mail-fill',
+      url: 'mailto:dadospet@gmail.com',
     },
     {
       name: 'GitHub',
-      label: 'petinformatica',
+      label: 'DadosPET',
       icon: 'ri-github-fill',
-      url: 'https://github.com/petinformatica',
+      url: 'https://github.com/DadosPET',
     },
     {
-      name: 'E-mail',
-      label: 'pet@cin.ufpe.br',
-      icon: 'ri-mail-fill',
-      url: 'mailto:pet@cin.ufpe.br',
+      name: 'Instagram',
+      label: 'Em breve...',
+      icon: 'ri-instagram-fill',
+      url: '#',
     },
   ],
   externalLinks: [
     {
-      text: 'Férias.py',
-      url: 'https://pet.cin.ufpe.br/ferias.py',
+      text: 'Regimento',
+      url: 'https://drive.google.com/file/d/1j_2GUzWuSuTSuASV87Ym8InuI4ipOg1p/view?usp=sharing',
     },
     {
-      text: 'CInWiki',
-      url: 'https://pet.cin.ufpe.br/wiki/',
-    },
-    {
-      text: 'OPEI',
-      url: 'https://opei.cin.ufpe.br/',
-    },
-    {
-      text: 'Manual de Sobrevivência',
-      url: 'https://pet.cin.ufpe.br/manual',
-    },
-    {
-      text: 'PETLib',
-      url: 'https://pet.cin.ufpe.br/lib/',
+      text: 'Formulário de Inscrição',
+      url: 'https://forms.gle/aRz41wEpAjKrvRHfA',
     },
   ],
 }

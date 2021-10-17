@@ -8,10 +8,9 @@
           <span class="text-laranja-internacional">Aplicações</span>
           </ElementSectionTitle>
 
-          <div
-            class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 pt-8"
-          >
-            
+          <!-- class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 pt-8" -->
+          <div class="grid grid-cols-1 gap-12 pt-8">
+            <p> Em breve adicionaremos aqui os projetos que estamos desenvolvendo :D </p>
           </div>
         </div>
       </div>

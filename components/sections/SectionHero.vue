@@ -42,21 +42,27 @@
                 class="hidden md:block md:ml-10 md:pr-4 md:space-x-3 lg:space-x-8 text-sm"
               >
                 <a
-                  href="#atividades"
-                  class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
-                  >Acesso aos dados - API</a
+                  href="#acesso-api"
+                  class="font-bold text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
+                  >acesso aos dados - API</a
                 >
 
                 <a
-                  href="#quem-somos"
+                  href="#aplicacoes"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
                   >Aplicações</a
                 >
 
                 <a
-                  href="#perguntas-frequentes"
+                  href="#quem-somos"
                   class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
                   >Quem somos</a
+                >
+
+                <a
+                  href="#perguntas-frequentes"
+                  class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
+                  >FAQ</a
                 >
 
                 <a
@@ -111,11 +117,19 @@
                 >
                   <div class="px-2 pt-2 pb-3 space-y-1" role="none">
                     <a
-                      href="#atividades"
+                      href="#acesso-api"
                       class="block px-3 py-2 rounded-md text-base font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
                       role="menuitem"
                       @click="menuOpened = false"
-                      >Atividades</a
+                      >Acesso aos dados - API</a
+                    >
+
+                    <a
+                      href="#aplicacoes"
+                      class="block px-3 py-2 rounded-md text-base font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
+                      role="menuitem"
+                      @click="menuOpened = false"
+                      >Aplicações</a
                     >
 
                     <a
@@ -131,7 +145,7 @@
                       class="block px-3 py-2 rounded-md text-base font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
                       role="menuitem"
                       @click="menuOpened = false"
-                      >Perguntas frequentes</a
+                      >FAQ</a
                     >
 
                     <a
@@ -160,14 +174,11 @@
                 v-else
                 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl"
               >
-                <span class="block text-perola-negra font-normal lowercase"
-                  >Pessoas</span
-                >
-                <span class="block text-perola-negra font-normal lowercase"
-                  >estimulando</span
-                >
                 <span class="block text-laranja-internacional lowercase"
-                  >transformação</span
+                  >dados</span
+                >
+                <span class="block text-perola-negra font-normal lowercase"
+                  >são <span class="font-bold">poderosos</span></span
                 >
               </h1>
 
@@ -180,10 +191,10 @@
                 v-else
                 class="mt-3 text-base text-perola-negra font-body sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
-                Somos pessoas alunas do Centro de Informática da Universidade
-                Federal de Pernambuco que estão envolvidas em atividades de
-                ensino, pesquisa e extensão, buscando melhorar a experiência da
-                graduação para toda a comunidade acadêmica.
+                Somos a <span class="text-perola-negra font-bold">DadosPET - Comissão Nacional de Centralização e 
+                Processamento de dados dos Grupos PET</span>. Somos membros e egressos do Programa de Educação
+                Tutorial que atuam com o objetivo de coletar, organizar, manter e garantir transparência de acesso aos 
+                dados do programa, inclusive aos dados que são oficialmente disponibilizados pelo Ministério da Educação.
               </p>
             </div>
           </section>
