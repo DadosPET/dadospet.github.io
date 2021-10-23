@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative bg-linho overflow-hidden">
+    <div class="relative bg-linho overflow-hidden" id='acesso-api'>
       <a name="acesso-api"></a>
       <div class="max-w-7xl mx-auto">
         <div class="p-8">

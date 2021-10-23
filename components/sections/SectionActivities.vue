@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative bg-linho overflow-hidden">
+    <div class="relative bg-linho overflow-hidden" id='atividades'>
       <a name="atividades"></a>
       <div class="max-w-7xl mx-auto">
         <div class="p-8">
@@ -14,7 +14,7 @@
             <div
               v-for="activity in activities"
               :key="activity.title"
-              class="bg-branco overflow-hidden shadow-md rounded-lg w-full h-full flex flex-col flex-1 m-auto"
+              class="bg-branco overflow-hidden shadow-md rounded-lg w-full h-full flex flex-col flex-1 m-auto text-justify"
             >
               <img
                 v-if="activity.images && activity.images[0]"

@@ -11,7 +11,7 @@ export const petDefaultDescriptionsLibrary = {
 
 export const imageLocations = {
   local: 'images',
-  cdn: 'https://res.cloudinary.com/dkbuneg9h/image/upload/v1613622178/pet-website',
+  cdn: '/images/',
 }
 
 export const targetImageLocation = imageLocations.cdn;
@@ -32,14 +32,14 @@ export const petWebsiteData: PetWebsiteData = {
     title: null,
     text: null,
     circleImage: {
-      url: `${targetImageLocation}/photos/opei-1.jpg`,
+      url: `${targetImageLocation}/logos/teste-logo.png`,
       alternativeText:
-        'Equipe da Olimpíada Pernambucana de Informática, organizada pelo PET-Informática.',
+        'Logotipo da comissão DadosPET',
     },
     presentationImage: {
       url: `${targetImageLocation}/photos/presentation.jpg`,
       alternativeText:
-        'Duas petianas conversando com um participante da Olimpíada Pernambucana de Informática. Ao fundo, a entrada do Centro de Informática da Universidade Federal de Pernambuco e outras pessoas alunas.',
+        '',
     },
     entries: [
       {
@@ -64,122 +64,66 @@ export const petWebsiteData: PetWebsiteData = {
   },
   activities: [
     {
-      title: 'OPEI',
+      title: 'Centralização e Organização de dados da CENAPET',
       text:
-        'Ocorrendo desde 2015, a Olimpíada Pernambucana de Informática tem como objetivo despertar o interesse em Ciência da Computação em estudantes do ensino fundamental e médio, além de motivar estudantes do primeiro ano do ensino superior, através de problemas de raciocínio lógico e matemática. Para o ensino médio e superior, a OPEI conta também com modalidade prática de programação, com linguagens como <i>Java</i>, <i>C/C++</i> e <i>Python</i>.',
+        '<p>Desde a sua fundação, a CENAPET produziu diversos dados. Apesar de que parte dessas informações estejam disponíveis no atual site da CENAPET, mantido pela diretoria, é possível que diversos documentos e dados importantes foram perdidos ao longo dos anos. Diferentes estruturas da CENAPET poderiam se beneficiar de um acesso simples e transparente sobre algumas características importantes que as gestões das diretorias puderam obter ao longo do tempo. Este projeto tem como objetivo criar um diálogo com a atual diretoria da CENAPET de forma que as informações relevantes para a comunidade PETiana possam ser documentadas e disponibilizadas publicamente.</p>',
       images: [{
-        url: `${targetImageLocation}/photos/opei-2.jpg`,
+        url: `${targetImageLocation}/logos/logo_atividade_cenapet.png`,
         alternativeText:
-          'Sala com estudantes realizando a avaliação prática da OPEI em computadores. Ao centro, uma pessoa da equipe de voluntários da OPEI. Ao fundo, um relógio digital projetado no quadro da sala.',
+          'Logotipo da CENAPET com o fundo roxo.',
       }],
-      callToAction: {
-        text: 'Saiba mais no site oficial',
-        url: 'https://opei.cin.ufpe.br/',
-      },
+      // callToAction: {
+      //   text: 'Saiba mais no site oficial',
+      //   url: 'https://opei.cin.ufpe.br/',
+      // },
     },
     {
-      title: 'Visita de Colégios',
+      title: 'Construção do site da comissão DadosPET',
       text:
-        'Em parceria com o CIn, o PET-Informática organiza visitas para qualquer colégio que esteja interessado em mostrar o Centro para sua turma, a fim de ajudar na escolha profissional! Para marcar a visita da sua escola, veja o processo na seção <a class="font-bold text-laranja-internacional hover:text-laranja-internacional-dark transition-colors" href="#perguntas-frequentes">Perguntas Frequentes</a>. Durante a visita, vamos fazer um tour com as pessoas alunas pelos prédios do CIn, e também fazer uma apresentação do curso!',
+        'A visibilidade e transparência são assuntos frequentes nos ambientes de discussão em eventos PET. Por esse motivo, diversas comissões e grupos de trabalhos criados no contexto da CENAPET buscam preencher um espaço nas redes sociais. A comissão DadosPET também busca adotar essa estratégia, além da definição de um website que tornará transparente as atividades, composição e objetivos da comissão. Além disso, o site também será utilizado para fornecer uma API de acesso aos dados coletados e estruturados pela comissão.',
       images: [{
-        url: `${targetImageLocation}/photos/visita.jpg`,
+        url: `${targetImageLocation}/logos/logo_atividade_site.png`,
         alternativeText:
-          'Estudantes e integrantes do PET-Informática em frente do Centro de Informática sorrindo e fazendo poses divertidas após uma visita.',
-      }],
-    },
-    {
-      title: 'Férias.py',
-      text:
-          'No período das férias escolares, o PET-Informática ministra aulas de programação para estudantes de ensino médio, para estimular o estudo da Ciência da Computação pelas pessoas alunas e ajudá-las a desenvolverem uma base sólida de programação. É um curso de introdução à linguagem de programação <i>Python</i>.',
-      images: [{
-        url: `${targetImageLocation}/photos/feriaspy.jpg`,
-        alternativeText:
-          'Integrantes do PET-Informática junto à estudantes de ensino médio que participaram do curso Férias.py. Ao fundo, o site do Férias.py projetado no quadro da sala.',
-      }],
-      callToAction: {
-        text: 'Acesse o site',
-        url: 'https://pet.cin.ufpe.br/ferias.py/',
-      },
-    },
-    {
-      title: 'Palestras e Workshops',
-      text:
-          'Buscando dar aos alunos do CIn novos conhecimentos, o PET-Informática realiza periodicamente palestras de temas relacionados tanto à computação quanto à temas diversificados, possibilitando uma troca de conhecimentos de uma grande variedade de assuntos. Muitas vezes, os workshops também são voltados para a descontração, criando uma oportunidade de diversão e engajamento para fugir da rotina!',
-      images: [{
-        url: `${targetImageLocation}/photos/workshops.png`,
-        alternativeText:
-          'Estudantes em uma sala com computadores assistindo à uma workshop. Ao fundo, uma pessoa ministrando a workshop, com uma apresentação projetada no quadro da sala.',
+          'Diversos logotipos de navegadores e tecnologias de desenvolvimento web com o fundo roxo.',
       }],
     },
     {
-      title: 'Manual de Sobrevivência',
+      title: 'Centralização de dados de CLAAs e representações institucionais de grupos PET nas IES (CLAA, InterPET, ...)',
       text:
-          'Manual criado para auxiliar as pessoas calouras nos seus primeiros dias no Centro de Informática, explicando principalmente o passo-a-passo de atividades e as oportunidades do Centro e da Universidade de maneira simples e direta.',
+          'A centralização de dados de CLAA tem como objetivo inicial a criação de um documento que contenha informações sobre todos os CLAA presentes em diferentes universidades. Essas informações contemplarão listas de contatos, lista de representantes (docentes e discentes), períodos de representação, entre outros. Um mecanismo poderá ser implementado para manter este documento atualizado, o que pode incluir o contato com diferentes organizações como os InterPETs de cada universidade (também conhecidos como CEPETs).',
       images: [{
-        url: `${targetImageLocation}/artworks/manual-de-sobrevivencia.png`,
+        url: `${targetImageLocation}/logos/logo_atividade_claa.png`,
         alternativeText:
-          'Logo do Manual de Sobrevivência',
+          'Três desenhos minimalistas de prédios que representam universidades com o fundo roxo. Existe uma linha pontilhada conectando os três desenhos.',
       }],
-      callToAction: {
-        text: 'Acesse o manual',
-        url: 'https://pet.cin.ufpe.br/manual/',
-      },
+      // callToAction: {
+      //   text: 'Acesse o site',
+      //   url: 'https://pet.cin.ufpe.br/ferias.py/',
+      // },
     },
     {
-      title: 'PETLib',
+      title: 'Centralização e Organização de dados de eventos PET',
       text:
-          'O PETLib é uma iniciativa criada pelo grupo para facilitar os estudos das pessoas alunas da graduação, possibilitando acesso rápido a materiais de estudo disponibilizados por outras pessoas alunas e professoras.',
+          'Atualmente, os eventos PET são as principais atividades no contexto da CENAPET que produz periodicamente uma grande quantidade de informações dos grupos. Dentre essas informações, estão inclusos os trabalhos publicados, a lista de participantes e as métricas de participação nesses eventos. Essas informações podem ser utilizadas para tornar mais transparente os dados do programa. O portal oficial SIGPET possuí um acesso muito limitado, e por este motivo diversas informações de interesse público não podem ser acessadas. Por isso, o projeto de Centralização e Organização de dados de eventos PET da comissão DadosPET tem como objetivo suprir essa demanda. Para isso, é necessário manter contato com cada comissão organizadora para padronizar, coletar e estruturar os dados que serão posteriormente disponibilizados para a comunidade.',
       images: [{
-        url: `${targetImageLocation}/artworks/petlib.png`,
+        url: `${targetImageLocation}/logos/logo_atividade_eventos.png`,
         alternativeText:
-          'Logo do PETLib',
+          'Logotipo do vigésimo quinto e vigésimo sexto enapet com o fundo roxo. Uma reticências também está inserida na parte inferior direita da figura.',
       }],
-      callToAction: {
-        text: 'Acesse a biblioteca',
-        url: 'https://cin.ufpe.br/~pet/lib',
-      },
     },
     {
-      title: 'PETLab',
+      title: 'Prototipação de aplicações',
       text:
-          'O PETLab é uma inciativa do PET-Informática que propõe um período de intercâmbio em laboratórios de tecnologia e grupos de pesquisa da UFPE, onde as pessoas alunas envolvidas deverão desenvolver projetos relacionados com as áreas de pesquisa por onde passarão.',
+          'O principal objetivo da comissão DadosPET consiste na coleta, estruturação, centralização e disponibilização de dados do programa no contexto da CENAPET. Esses dados podem ser utilizados por qualquer pessoa para realizar qualquer tipo de atividade ou projeto. Contudo, diversos membros da comissão têm interesses no potencial que esse tipo de centralização de dados pode possibilitar. Por isso a comissão considera dentre as suas atividades o desenvolvimento de diversos protótipos que podem ser desenvolvidos para resolver problemas no contexto do PET. Alguns exemplos de aplicações consideram a indexação de publicações em eventos PET e aplicativos para consulta de encaminhamentos. Os projetos desenvolvidos serão disponibilizados publicamente no site GitHub, e também incorporados no site da comissão sempre que possível.',
       images: [{
-        url: `${targetImageLocation}/artworks/petlab.png`,
+        url: `${targetImageLocation}/logos/logo_atividade_aplicacoes.png`,
         alternativeText:
-          'Logo do PETLab',
+          'Ao lado esquerdo da figura existem quatro logos empilhados de planilhas do google com cores verdes. No centro da imagem existe uma flecha branca apontando para a direita. Na direita da figura existe um desenho que contém um computador de ondem saem gráficos, desenhos de documentos digitais e outros símbolos que remetem a ideia de análises de dados.',
       }],
-      callToAction: {
-        text: 'Acesse o site',
-        url: 'https://pet.cin.ufpe.br/lab/'
-      }
-    },
-    {
-      title: 'HackaPET',
-      text:
-          'O HackaPET é uma iniciativa do PET-Informática que consiste em promover um hackathon para as pessoas alunas do CIn do 1º ao 5º período, com o objetivo de promover o trabalho em equipe a confiança das pessoas alunas nas suas habilidades de programação.',
-      images: [{
-        url: `${targetImageLocation}/photos/hackapet.jpg`,
-        alternativeText:
-          'Em primeiro plano, duas pessoas conversando. Ao fundo, pessoas concentradas. Todas as pessoas estão vestindo a camisa do HackaPET.',
-      }],
-      callToAction: {
-        text: 'Acesse o site',
-        url: 'https://pet.cin.ufpe.br/hacka/'
-      }
-    },
-    {
-      title: 'CInWiki',
-      text:
-          'Site colaborativo feito pelo PET-Informática no formato Wiki com informações sobre os cursos, disciplinas e quaisquer atividades relacionadas ao Centro de Informática. Contribuições são mais que bem-vindas!',
-      images: [{
-        url: `${targetImageLocation}/artworks/cinwiki.png`,
-        alternativeText:
-          'Logo do CInWiki',
-      }],
-      callToAction: {
-        text: 'Acesse o site',
-        url: 'https://pet.cin.ufpe.br/wiki/',
-      },
+      // callToAction: {
+      //   text: 'Acesse o manual',
+      //   url: 'https://pet.cin.ufpe.br/manual/',
+      // },
     },
   ],
   members: [
