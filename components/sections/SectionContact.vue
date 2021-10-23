@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div class="relative bg-linho overflow-hidden">
+    <div class="relative bg-linho overflow-hidden" id='contato'>
       <a name="contato"></a>
       <div class="max-w-7xl mx-auto">
         <div class="p-8">
@@ -61,7 +61,7 @@
         <div
           class="max-w-7xl mx-auto flex flex-col justify-center sm:pb-8 lg:pb-16"
         >
-          <img
+          <!--img
             alt="Logo do PET-Informática"
             class="sm:hidden h-8 w-auto px-8 self-start"
             src="images/logos/pet-primary-signature-light.svg"
@@ -70,11 +70,11 @@
             alt="Logo do PET-Informática"
             class="hidden sm:block h-8 w-auto md:h-16"
             src="images/logos/pet-horizontal-mono-white.svg"
-          />
+          /-->
           <p
             class="text-perola-negra text-sm sm:text-md sm:text-center sm:text-linho px-8 pt-4 pb-12 sm:py-8"
           >
-            2021. Site base feito com ❤ pelo PET-Informática.
+          DadosPET 2021. Site base adaptado do PET-Informática UFPE.
           </p>
         </div>
       </div>

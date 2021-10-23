@@ -5,7 +5,7 @@
         <div
           class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:max-w-4xl lg:w-full lg:pb-28 xl:pb-32"
         >
-          <div class="relative pt-6 px-4 sm:px-6 lg:px-8" style="position: fixed; background-color:#FDF8F5; top: 0;">
+          <div class="relative pt-6 px-4 sm:px-6 lg:px-8 lg:w-full" style="position: fixed; background-color:#FDF8F5; top: 0; right: 0">
             <nav
               class="relative flex items-center justify-between sm:h-10 lg:justify-start"
               aria-label="Global"
@@ -41,6 +41,19 @@
               <div
                 class="hidden md:block md:ml-10 md:pr-4 md:space-x-3 lg:space-x-8 text-sm"
               >
+                
+                <a
+                  href="https://forms.gle/aRz41wEpAjKrvRHfA"
+                  class="font-bold text-laranja-internacional lowercase hover:text-laranja-internacional-dark transition-colors"
+                  >Faça parte da comissão!</a
+                >
+
+                <a
+                  href="#atividades"
+                  class="font-bold text-laranja-internacional  lowercase hover:text-laranja-internacional-dark transition-colors"
+                  >Nossas Atividades</a
+                >
+                
                 <a
                   href="#acesso-api"
                   class="font-bold text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
@@ -61,7 +74,7 @@
 
                 <a
                   href="#perguntas-frequentes"
-                  class="font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
+                  class="font-bold text-laranja-internacional hover:text-laranja-internacional-dark transition-colors"
                   >FAQ</a
                 >
 
@@ -116,12 +129,29 @@
                   aria-labelledby="main-menu"
                 >
                   <div class="px-2 pt-2 pb-3 space-y-1" role="none">
+
                     <a
-                      href="#acesso-api"
+                      href="https://forms.gle/aRz41wEpAjKrvRHfA"
                       class="block px-3 py-2 rounded-md text-base font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
                       role="menuitem"
                       @click="menuOpened = false"
-                      >Acesso aos dados - API</a
+                      >Faça parte da comissão!</a
+                    >
+
+                    <a
+                      href="#atividades"
+                      class="block px-3 py-2 rounded-md text-base font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
+                      role="menuitem"
+                      @click="menuOpened = false"
+                      >Nossas Atividades</a
+                    >
+
+                    <a
+                      href="#acesso-api"
+                      class="block px-3 py-2 rounded-md text-base font-bold text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
+                      role="menuitem"
+                      @click="menuOpened = false"
+                      >acesso aos dados - API</a
                     >
 
                     <a
@@ -142,7 +172,7 @@
 
                     <a
                       href="#perguntas-frequentes"
-                      class="block px-3 py-2 rounded-md text-base font-bold lowercase text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
+                      class="block px-3 py-2 rounded-md text-base font-bold text-laranja-internacional hover:text-laranja-internacional-dark hover:bg-gray-50 transition-colors"
                       role="menuitem"
                       @click="menuOpened = false"
                       >FAQ</a
@@ -192,9 +222,9 @@
                 class="mt-3 text-base text-perola-negra font-body sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               >
                 Somos a <span class="text-perola-negra font-bold">DadosPET - Comissão Nacional de Centralização e 
-                Processamento de dados dos Grupos PET</span>. Somos membros e egressos do Programa de Educação
+                Processamento de dados dos Grupos PET</span>, criada na assembleia geral do XXV ENAPET, sendo portanto vinculada à CENAPET. Somos membros e egressos do Programa de Educação
                 Tutorial que atuam com o objetivo de coletar, organizar, manter e garantir transparência de acesso aos 
-                dados do programa, inclusive aos dados que são oficialmente disponibilizados pelo Ministério da Educação.
+                dados do programa, inclusive aos dados que são oficialmente públicos e disponibilizados pelo Ministério da Educação.
               </p>
             </div>
           </section>

@@ -30,7 +30,8 @@ export default {
       },
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: 'images/logos/favicon.png' },
+      // { rel: 'icon', type: 'image/png', href: 'images/logos/favicon.png' },
+      { rel: 'icon', type: 'image/png', href: 'images/logos/teste-logo.png' },
       {
         rel: 'stylesheet',
         href:
