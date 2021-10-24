@@ -134,13 +134,13 @@ export const petWebsiteData: PetWebsiteData = {
       type: PetMemberType.Current,
       cinLogin: 'GET Engenharia Computacional UFJF (Egresso)',
       photoUrl: `${targetImageLocation}/members/carlos-alexandre.png`,
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/carlosalexandre94/',
     },
     {
       name: 'Diego Silva',
       type: PetMemberType.Current,
       cinLogin: 'PET Engenharias UEFS',
-      photoUrl: `${targetImageLocation}/members/diego-silva.png`,
+      photoUrl: `${targetImageLocation}/members/diego-silva.jpeg`,
       linkedinUrl: 'https://www.linkedin.com/in/di3gocs/',
     },
     {
@@ -153,9 +153,9 @@ export const petWebsiteData: PetWebsiteData = {
     {
       name: 'Nathan Oliveira',
       type: PetMemberType.Current,
-      cinLogin: 'PET Computação ',
+      cinLogin: 'PET BCC UFSCar',
       photoUrl: `${targetImageLocation}/members/nathan-oliveira.jfif`,
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/nathan-celestino-de-oliveira-71040318a/',
     },
     {
       name: 'Aline Correia',
