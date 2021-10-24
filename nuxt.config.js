@@ -72,7 +72,7 @@ export default {
   build: {},
 
   router: {
-    base: '/www',
+    base: '/',
   },
 
   components: [
