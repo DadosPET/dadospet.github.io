@@ -2,7 +2,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'PET Informática - Ensino, Pesquisa e Extensão na UFPE',
+    title: 'DadosPET - Comissão Nacional de Centralização e Processamento de dados dos Grupos PET',
     htmlAttrs: {
       lang: 'pt-br',
     },
