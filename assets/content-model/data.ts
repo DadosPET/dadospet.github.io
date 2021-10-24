@@ -35,11 +35,13 @@ export const petWebsiteData: PetWebsiteData = {
       url: `${targetImageLocation}/logos/teste-logo.png`,
       alternativeText:
         'Logotipo da comissão DadosPET',
+      credits: '',
     },
     presentationImage: {
       url: `${targetImageLocation}/photos/presentation.jpg`,
       alternativeText:
         '',
+      credits: 'https://br.freepik.com/vetores/fundo',
     },
     entries: [
       {
@@ -59,6 +61,7 @@ export const petWebsiteData: PetWebsiteData = {
         url: `${targetImageLocation}/logos/logo_atividade_cenapet.png`,
         alternativeText:
           'Logotipo da CENAPET com o fundo roxo.',
+        credits: '',
       }],
       // callToAction: {
       //   text: 'Saiba mais no site oficial',
@@ -73,6 +76,7 @@ export const petWebsiteData: PetWebsiteData = {
         url: `${targetImageLocation}/logos/logo_atividade_site.png`,
         alternativeText:
           'Diversos logotipos de navegadores e tecnologias de desenvolvimento web com o fundo roxo.',
+        credits: '',
       }],
     },
     {
@@ -83,6 +87,7 @@ export const petWebsiteData: PetWebsiteData = {
         url: `${targetImageLocation}/logos/logo_atividade_claa.png`,
         alternativeText:
           'Três desenhos minimalistas de prédios que representam universidades com o fundo roxo. Existe uma linha pontilhada conectando os três desenhos.',
+        credits: '',
       }],
       // callToAction: {
       //   text: 'Acesse o site',
@@ -97,7 +102,8 @@ export const petWebsiteData: PetWebsiteData = {
         url: `${targetImageLocation}/logos/logo_atividade_eventos.png`,
         alternativeText:
           'Logotipo do vigésimo quinto e vigésimo sexto enapet com o fundo roxo. Uma reticências também está inserida na parte inferior direita da figura.',
-      }],
+        credits: '',
+        }],
     },
     {
       title: 'Prototipação de aplicações',
@@ -107,7 +113,8 @@ export const petWebsiteData: PetWebsiteData = {
         url: `${targetImageLocation}/logos/logo_atividade_aplicacoes.png`,
         alternativeText:
           'Ao lado esquerdo da figura existem quatro logos empilhados de planilhas do google com cores verdes. No centro da imagem existe uma flecha branca apontando para a direita. Na direita da figura existe um desenho que contém um computador de ondem saem gráficos, desenhos de documentos digitais e outros símbolos que remetem a ideia de análises de dados.',
-      }],
+        credits: '',
+        }],
       // callToAction: {
       //   text: 'Acesse o manual',
       //   url: 'https://pet.cin.ufpe.br/manual/',
