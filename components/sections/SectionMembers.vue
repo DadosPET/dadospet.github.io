@@ -23,7 +23,7 @@
             >
               Membros
             </button>
-            <button
+            <!--<button
               type="button"
               role="tab"
               aria-controls="pet-members"
@@ -36,7 +36,7 @@
               @click="selectedOption = 'egress'"
             >
               Egressos
-            </button>
+            </button> -->
           </nav>
 
           <div id="pet-members">
@@ -72,13 +72,13 @@
                     <span class="text-md text-perola-negra font-medium">
                       {{ member.name }}
                     </span>
-                    <a
+                    <p
                       v-if="member.cinLogin"
                       :href="'mailto:' + member.cinLogin + '@cin.ufpe.br'"
                       class="block text-laranja-internacional hover:text-laranja-internacional-dark text-sm transition-colors"
                     >
                       {{ member.cinLogin }}
-                    </a>
+                    </p>
                     <div class="flex flex-wrap justify-center text-xl">
                       <div v-if="member.linkedinUrl" class="m-2">
                         <a

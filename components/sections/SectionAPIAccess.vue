@@ -11,7 +11,7 @@
           <div
             class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-12 pt-8"
           >
-            
+             <p> No momento a API está em construção 🐱‍💻😊</p>
           </div>
         </div>
       </div>
