@@ -13,21 +13,22 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'O PET-Informática é um programa da Universidade Federal de Pernambuco formado por pessoas alunas de Ciência da Computação. Organizamos cursos, palestras, workshops e olimpíadas para as pessoas alunas da graduação e toda a comunidade local.',
+          'A DadosPET - Comissão Nacional de Centralização e Processamento de dados dos Grupos PET, é uma comissão criada na assembleia geral do XXV ENAPET, sendo portanto vinculada à CENAPET.',
       },
-      { property: 'og:title', content: 'PET-Informática' },
+      { property: 'og:title', content: 'DadosPET' },
       { property: 'og:type', content: 'website' },
       {
         property: 'og:description',
         content:
-          'O PET-Informática é um programa da Universidade Federal de Pernambuco formado por pessoas alunas de Ciência da Computação.',
+          'A DadosPET - Comissão Nacional de Centralização e Processamento de dados dos Grupos PET, é uma comissão criada na assembleia geral do XXV ENAPET, sendo portanto vinculada à CENAPET.',
       },
       { property: 'og:locale', content: 'pt_BR' },
-      { property: 'og:url', content: 'https://pet.cin.ufpe.br/' },
-      {
-        property: 'og:image',
-        content: 'https://pet.cin.ufpe.br/www/images/artworks/app-cover.png',
-      },
+      { property: 'og:url', content: 'https://dadospet.github.io/' },
+      // {
+      //   property: 'og:image',
+      //    substituir aqui no content pela preview do dadospet
+      //   content: 'https://pet.cin.ufpe.br/www/images/artworks/app-cover.png',
+      // },
     ],
     link: [
       // { rel: 'icon', type: 'image/png', href: 'images/logos/favicon.png' },
