@@ -283,6 +283,7 @@
                 :src="hero.presentationImage.url"
                 class="relative mx-auto shadow-lg rounded w-auto"
               />
+              <a style="margin-left:20px" :href="hero.presentationImage.credits" target="_blank">Imagem por liuzishan</a>
             </div>
           </div>
         </div>

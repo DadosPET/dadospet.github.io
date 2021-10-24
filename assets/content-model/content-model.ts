@@ -30,6 +30,7 @@ export type PetWebsiteEntry = {
 export type PetWebsiteLabeledImage = {
   url: string
   alternativeText: string
+  credits: string
 }
 
 export type PetWebsiteAnnouncementData = {
