@@ -43,22 +43,10 @@ export const petWebsiteData: PetWebsiteData = {
     },
     entries: [
       {
-        title: 'Ensino',
-        icon: 'ri-ball-pen-fill',
+        title: 'Dados Abertos',
+        icon: 'ri-open-source-fill',
         text:
-          'Buscamos contribuir com a formação intelectual das pessoas alunas e da comunidade local, oferecendo palestras, workshops, cursos e atividades relacionadas à difusão do conhecimento e da computação.',
-      },
-      {
-        title: 'Pesquisa',
-        icon: 'ri-test-tube-fill',
-        text:
-          'Realizamos internamente iniciações científicas e projetos de pesquisa, tanto individuais como coletivos, com o objetivo de desenvolver as habilidades pessoais de cada pessoa petiana e contribuir com a produção científica da Universidade.',
-      },
-      {
-        title: 'Extensão',
-        icon: 'ri-open-arm-fill',
-        text:
-          'Nossas atividades extrapolam os limites universitários, buscando atingir também a comunidade local e engajar pessoas em projetos profissionais, sociais e ambientais.',
+          'Segundo a definição da Open Knowledge Internacional, em suma, dados são abertos quando qualquer pessoa pode livremente acessá-los, utilizá-los, modificá-los e compartilhá-los para qualquer finalidade, estando sujeito a, no máximo, exigências que visem preservar sua proveniência e sua abertura. Isso geralmente é satisfeito pela publicação dos dados em formato aberto e sob uma licença aberta.',
       },
     ],
   },
