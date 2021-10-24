@@ -141,7 +141,7 @@ export const petWebsiteData: PetWebsiteData = {
       type: PetMemberType.Current,
       cinLogin: 'PET Engenharias UEFS',
       photoUrl: `${targetImageLocation}/members/diego-silva.png`,
-      linkedinUrl: '',
+      linkedinUrl: 'https://www.linkedin.com/in/di3gocs/',
     },
     {
       name: 'Mateus Edival',
