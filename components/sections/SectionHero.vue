@@ -20,7 +20,7 @@
                     <img
                       alt="Dados PET"
                       class="h-8 w-auto sm:h-10"
-                      src="images/logos/teste-logo.png"
+                      src="images/logos/logo-dados-pet.png"
                       style="background-color:transparent"
                     />
                   </a>
@@ -108,7 +108,7 @@
                     <img
                       alt=""
                       class="h-8 w-auto"
-                      src="images/logos/teste-logo.png"
+                      src="images/logos/logo-dados-pet.png"
                       style="background-color:rgba(0,0,0,0)"
                     />
                   </div>
