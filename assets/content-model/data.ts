@@ -32,7 +32,7 @@ export const petWebsiteData: PetWebsiteData = {
     title: null,
     text: null,
     circleImage: {
-      url: `${targetImageLocation}/logos/teste-logo.png`,
+      url: `${targetImageLocation}/logos/logo-dados-pet.png`,
       alternativeText:
         'Logotipo da comissão DadosPET',
       credits: '',
